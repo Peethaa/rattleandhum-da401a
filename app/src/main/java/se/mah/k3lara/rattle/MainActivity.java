@@ -73,6 +73,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 myFirebaseRef.child("rattle").setValue(Math.round(vibrateTime)); //send
 
 
+                hej
+
             }
         }
     }

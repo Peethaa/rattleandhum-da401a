@@ -71,6 +71,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 }
                 float vibrateTime = 100*((meanValue-triggervalue)/(maxvalue-triggervalue)); // 0-100ms
                 myFirebaseRef.child("rattle").setValue(Math.round(vibrateTime)); //send
+
+
             }
         }
     }
